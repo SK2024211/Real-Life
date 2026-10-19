@@ -1,0 +1,15 @@
+{
+  "name": "conglomerate-chairman-simulator",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A modular, deterministic business and personal wealth simulation.",
+  "scripts": {
+    "start": "python3 -m http.server 8080 --bind 0.0.0.0",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node tests/browser.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
